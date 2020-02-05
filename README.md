@@ -68,7 +68,8 @@ Notes:
     * If you get a strange "can't combine user with prefix" error, read [this](http://stackoverflow.com/questions/4495120).
 * Install to a specific location: `python3 setup.py install --prefix=$HOME/.local`
 * Install with pip (local copy): `pip3 install path/to/Porechop`
-* Install with pip (from GitHub): `pip install git+https://github.com/dr3y/Porechop.git`
+* Install with pip (from GitHub): `pip install git+git://github.com/dr3y/Porechop.git@master`
+* Update existing installation with pip (from GitHub): `pip install --upgrade --no-deps git+git://github.com/dr3y/Porechop.git@master`
 * If you'd like to specify which compiler to use, set the `CXX` variable: `export CXX=g++-6; python3 setup.py install`
 * Porechop includes `ez_setup.py` for users who don't have [setuptools](https://pypi.python.org/pypi/setuptools) installed, though that script is [deprecated](https://github.com/pypa/setuptools/issues/581). So if you run into any installation problems, make sure setuptools is installed on your computer: `pip3 install setuptools`
 
