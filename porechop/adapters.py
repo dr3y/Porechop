@@ -217,8 +217,8 @@ ADAPTERS = [Adapter('SQK-NSK007',
                     end_sequence=('BC14_rev', 'TCTATGGGTCCCAAGAGACTCGTT')),
             Adapter('Barcode 15 (forward)',
                     start_sequence=('BC15', 'AGGTCTACCTCGCTAACACCACTG'),
-                    end_sequence=('BC15_rev', 'CAGTGGTGTTAGCGAGGTAGACCT')),]
-            """
+                    end_sequence=('BC15_rev', 'CAGTGGTGTTAGCGAGGTAGACCT'))]
+"""
             Adapter('Barcode 16 (forward)',
                     start_sequence=('BC16', 'CGTCAACTGACAGTGGTTCGTACT'),
                     end_sequence=('BC16_rev', 'AGTACGAACCACTGTCAGTTGACG')),
