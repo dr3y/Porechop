@@ -78,7 +78,7 @@ Notes:
 By simply running `make` in Porechop's directory, you can compile the C++ components but not install an executable. The program can then be executed by directly calling the `porechop-runner.py` script.
 
 ```bash
-git clone https://github.com/rrwick/Porechop.git
+git clone https://github.com/dr3y/Porechop.git
 cd Porechop
 make
 ./porechop-runner.py -h
